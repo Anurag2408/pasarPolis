@@ -1,7 +1,6 @@
 import java.util.*;
 public class ArraySecondMax {
     public static Long findSecondMax(String[] arr,int length){
-        //Set<String> setOfNumbers= new HashSet<>(Arrays.asList(arr));
         if(length ==0)
             return  -1L;
         Long max = Long.MIN_VALUE;
