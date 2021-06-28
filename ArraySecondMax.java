@@ -3,10 +3,6 @@ public class ArraySecondMax {
     public static Long findSecondMax(String[] arr,int length){
         if(length ==0)
             return  -1L;
-       /* for (int i = 0; i < length ; i++) {
-            if(arr[i].length() >1024)
-                System.out.println("String element length is can not greater than 1024 digits");
-        }*/
 
         Long max = Long.MIN_VALUE;
         for( int i=0; i< length;i++){
